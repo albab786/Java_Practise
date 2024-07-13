@@ -70,12 +70,36 @@ public class StarPattern {
             System.out.println();
         }
     }
+    public static void PyramidStarPattern(int n){
+        //for rows
+        for(int i=1;i<=n;i++){
+
+            //for column
+            for(int j=1;j<=i;j++ ){
+
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+
+
 
     public static void main(String[] args) {
 //        squareStarPattern(5);
+//        System.out.println("============================");
+//        System.out.println("                            ");
 //        hollowSquareStarPattern(5);
+//        System.out.println("============================");
+//        System.out.println("                            ");
 //        rhombusStarPattern(5);
+//        System.out.println("============================");
+//        System.out.println("                            ");
 //        mirroredRhombusStarPattern(4);
+//        System.out.println("============================");
+//        System.out.println("                            ");
 //        triangleStarPattern(5);
+
     }
 }

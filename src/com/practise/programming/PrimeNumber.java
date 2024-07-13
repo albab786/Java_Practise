@@ -1,7 +1,7 @@
 package com.practise.programming;
 
 public class PrimeNumber {
-    public static void checkPrime(int i,int j){
+    public static void checkPrimeWithCondition(int i,int j){
         for(int k=i;k<=j;k++){
             if(isPrime(k) && isPrime(digitSum(k))){
                 System.out.print( k+ " ");
@@ -29,6 +29,7 @@ public class PrimeNumber {
     }
 
     public static void main(String[] args) {
-        checkPrime(2,23);
+
+        checkPrimeWithCondition(2,23);
     }
 }
