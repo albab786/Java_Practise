@@ -1,6 +1,6 @@
 package com.practise.basic.switchstatement;
 
-import com.sun.deploy.cache.Cache;
+
 
 import java.util.Scanner;
 
