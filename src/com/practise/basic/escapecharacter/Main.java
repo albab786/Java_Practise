@@ -1,6 +1,11 @@
 package com.practise.basic.escapecharacter;
 
-public class Main {
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class Main  {
     public static void main(String[] args) {
         // excape '\'
         // \t is used for tab space
@@ -13,5 +18,14 @@ public class Main {
         int y=10;
         System.out.println(y--);
         System.out.println(y);;
+
+
+        String ans=7>5?"right":"wrong";
+        System.out.println(ans);
+
+
     }
-}
+
+
+    }
+
