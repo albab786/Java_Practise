@@ -7,7 +7,7 @@ public class Laptop {
     double price;
 
     public void setVale(String b,String m,String s,double p){
-        brand_name=b;
+        brand_name="x";
         model=m;
         storage_type=s;
         price=p;
