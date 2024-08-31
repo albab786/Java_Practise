@@ -75,21 +75,21 @@ public class Lamdaexample {
         Lamdaexample lamdaexample = new Lamdaexample("Peter", "16", "1300", "SW");
         Lamdaexample lamdaexample2 = new Lamdaexample("john", "26", "2700", "sW");
         Lamdaexample lamdaexample3 = new Lamdaexample("snow", "26", "1000", "sW");
-
-
-        List<Lamdaexample> data1 = new ArrayList<>();
-        data1.add(lamdaexample);
-        data1.add(lamdaexample2);
-        data1.add(lamdaexample3);
-
-
-        data1.stream().map(o -> {
-            Integer sal = Integer.parseInt(o.getSalary());
-            if (sal >= 1300) {
-                o.setDesignation("Manager");
-            }
-            return o;
-        }).forEach(System.out::println);
+//
+//
+//        List<Lamdaexample> data1 = new ArrayList<>();
+//        data1.add(lamdaexample);
+//        data1.add(lamdaexample2);
+//        data1.add(lamdaexample3);
+//
+//
+//        data1.stream().map(o -> {
+//            Integer sal = Integer.parseInt(o.getSalary());
+//            if (sal >= 1300) {
+//                o.setDesignation("Manager");
+//            }
+//            return o;
+//        }).forEach(System.out::println);
 
 //        List<String> myList = Arrays.asList("Abid","Albab","Anam","Kaif","Hasnain");
 //
