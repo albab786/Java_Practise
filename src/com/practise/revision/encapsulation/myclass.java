@@ -12,7 +12,7 @@ public class myclass {
             try {
                 throw new MyException("you are not");
             } catch (MyException e) {
-                System.out.println(e.msg);
+                System.out.println(e.getMessage());
             }
         }
     }

@@ -91,7 +91,7 @@ public class Lamdaexample {
 //            return o;
 //        }).forEach(System.out::println);
 
-//        List<String> myList = Arrays.asList("Abid","Albab","Anam","Kaif","Hasnain");
+//f        List<String> myList = Arrays.asList("Abid","Albab","Anam","Kaif","Hasnain");
 //
 //
 //
