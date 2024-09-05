@@ -10,5 +10,6 @@ public class TreeSetDemo {
         t.add(-5);
         t.add(7);
         System.out.println(t);
+        System.out.println();
     }
 }
