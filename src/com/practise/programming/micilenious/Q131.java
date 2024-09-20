@@ -1,6 +1,7 @@
 package com.practise.programming.micilenious;
 
 public class Q131 {
+    //131.WAP TO REVERSE THE STRING.->IN CLASS
     public static String getReverse(String s){
         String rev="";
         for (int i=0;i<s.length();i++){
