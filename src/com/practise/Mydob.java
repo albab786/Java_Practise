@@ -9,5 +9,6 @@ public class Mydob {
         System.out.println(current.getDayOfWeek());
         LocalDateTime dateTime=LocalDateTime.now();
         System.out.println(dateTime);
+        System.out.println();
     }
 }
